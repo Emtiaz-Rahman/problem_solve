@@ -1,71 +1,71 @@
-// const names = ['rahim', 'habul', 'kabul', 'babul', 'habul', 'karim', 'rahim'];
+const names = ['rahim', 'habul', 'kabul', 'babul', 'habul', 'karim', 'rahim'];
 
-// function removeduplicateNames(names) {
-//     const unique = [];
-//     for (let i = 0; i < names.length; i++) {
-//         const element = names[i];
-//         if (unique.indexOf(element) == -1) {
-//             unique.push(element);
-//         }
-//     }
-//     return unique;
-// }
-// const uniquenames = removeduplicateNames(names);
-// console.log(uniquenames);
-
-
-// const names = ['rahim', 'habul', 'kabul', 'babul', 'habul', 'karim', 'rahim'];
-// function removeduplicateNames(names) {
-//     const unique = [];
-//     for (const element of names) {
-//         if (unique.indexOf(element) == -1) {
-//             unique.push(element);
-//         }
-//     }
-//     return unique;
-// }
-// const uniquenames = removeduplicateNames(names);
-// console.log(uniquenames);
-
-// const names = ['rahim', 'habul', 'kabul', 'babul', 'habul', 'karim', 'rahim'];
-// function removeduplicateNames(names) {
-//     const unique = [];
-//     for (const element of names) {
-//         if (unique.indexOf(element) == -1) {
-//             unique.push(element);
-//         }
-//     }
-//     return unique;
-// }
-// const uniqueNames = removeduplicateNames(names);
-// console.log('Unique Name:', uniqueNames);
+function removeduplicateNames(names) {
+    const unique = [];
+    for (let i = 0; i < names.length; i++) {
+        const element = names[i];
+        if (unique.indexOf(element) == -1) {
+            unique.push(element);
+        }
+    }
+    return unique;
+}
+const uniquenames = removeduplicateNames(names);
+console.log(uniquenames);
 
 
-// const numbers = [12, 22, 12, 45, 12, 23, 20, 45];
+const names = ['rahim', 'habul', 'kabul', 'babul', 'habul', 'karim', 'rahim'];
+function removeduplicateNames(names) {
+    const unique = [];
+    for (const element of names) {
+        if (unique.indexOf(element) == -1) {
+            unique.push(element);
+        }
+    }
+    return unique;
+}
+const uniquenames = removeduplicateNames(names);
+console.log(uniquenames);
 
-// function removeduplicateNumber(value) {
-//     const uniqueNumber = value[i];
+const names = ['rahim', 'habul', 'kabul', 'babul', 'habul', 'karim', 'rahim'];
+function removeduplicateNames(names) {
+    const unique = [];
+    for (const element of names) {
+        if (unique.indexOf(element) == -1) {
+            unique.push(element);
+        }
+    }
+    return unique;
+}
+const uniqueNames = removeduplicateNames(names);
+console.log('Unique Name:', uniqueNames);
 
-//     for (const element of value) {
-//         if (uniqueNumber.indexOf(element) !== -1) {
-//             uniqueNumber.push(element);
-//         }
-//     }
-//     return uniqueNumber;
-// }
-// const unique = removeduplicateNumber(numbers);
-// console.log('Unique Number:', unique);
 
-// const numbers = [12, 22, 12, 45, 12, 22, 23, 20, 45];
-// let duplicate = []
+const numbers = [12, 22, 12, 45, 12, 23, 20, 45];
 
-// for (let i = 0; i < numbers.length; i++) {
-//     const element = numbers[i];
-//     if (duplicate.indexOf(element) == -1) {
-//         duplicate.push(element)
-//     }
-// }
-// console.log(duplicate)
+function removeduplicateNumber(value) {
+    const uniqueNumber = value[i];
+
+    for (const element of value) {
+        if (uniqueNumber.indexOf(element) !== -1) {
+            uniqueNumber.push(element);
+        }
+    }
+    return uniqueNumber;
+}
+const unique = removeduplicateNumber(numbers);
+console.log('Unique Number:', unique);
+
+const numbers = [12, 22, 12, 45, 12, 22, 23, 20, 45];
+let duplicate = []
+
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    if (duplicate.indexOf(element) == -1) {
+        duplicate.push(element)
+    }
+}
+console.log(duplicate)
 
 
 const numbers = [12, 22, 12, 45, 12, 22, 23, 20, 45];
