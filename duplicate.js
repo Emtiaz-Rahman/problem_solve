@@ -80,3 +80,19 @@ function removeduplicateNumber(values) {
 }
 const uniqueNumber = removeduplicateNumber(numbers);
 console.log(uniqueNumber);
+
+
+
+const numbers = [12, 22, 12, 32, 42, 32, 52, 32, 52];
+const unique = [];
+function removedoplicateNumber(value) {
+    for (const element of value) {
+        if (unique.indexOf(element) == -1) {
+            unique.push(element);
+        }
+    }
+    return unique;
+}
+const uniqueNumber = removedoplicateNumber(numbers);
+console.log('Unique Number:', uniqueNumber);
+
